@@ -4,7 +4,7 @@
 #
 Name     : pypi-ifaddr
 Version  : 0.1.7
-Release  : 29
+Release  : 30
 URL      : https://files.pythonhosted.org/packages/3d/fc/4ce147e3997cd0ea470ad27112087545cf83bf85015ddb3054673cb471bb/ifaddr-0.1.7.tar.gz
 Source0  : https://files.pythonhosted.org/packages/3d/fc/4ce147e3997cd0ea470ad27112087545cf83bf85015ddb3054673cb471bb/ifaddr-0.1.7.tar.gz
 Summary  : Cross-platform network interface and IP address enumeration library
@@ -14,10 +14,6 @@ Requires: pypi-ifaddr-license = %{version}-%{release}
 Requires: pypi-ifaddr-python = %{version}-%{release}
 Requires: pypi-ifaddr-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: ifaddr
-Provides: ifaddr-python
-Provides: ifaddr-python3
-BuildRequires : pypi(ipaddress)
 
 %description
 =====================================================================
@@ -44,7 +40,6 @@ Summary: python3 components for the pypi-ifaddr package.
 Group: Default
 Requires: python3-core
 Provides: pypi(ifaddr)
-Requires: pypi(ipaddress)
 
 %description python3
 python3 components for the pypi-ifaddr package.
@@ -59,7 +54,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641444334
+export SOURCE_DATE_EPOCH=1649762059
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
