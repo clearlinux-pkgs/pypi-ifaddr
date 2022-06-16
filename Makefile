@@ -1,5 +1,5 @@
 PKG_NAME := pypi-ifaddr
-URL = https://files.pythonhosted.org/packages/3d/fc/4ce147e3997cd0ea470ad27112087545cf83bf85015ddb3054673cb471bb/ifaddr-0.1.7.tar.gz
+URL = https://files.pythonhosted.org/packages/e8/ac/fb4c578f4a3256561548cd825646680edcadb9440f3f68add95ade1eb791/ifaddr-0.2.0.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
