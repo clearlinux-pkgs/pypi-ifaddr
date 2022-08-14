@@ -4,7 +4,7 @@
 #
 Name     : pypi-ifaddr
 Version  : 0.2.0
-Release  : 35
+Release  : 36
 URL      : https://files.pythonhosted.org/packages/e8/ac/fb4c578f4a3256561548cd825646680edcadb9440f3f68add95ade1eb791/ifaddr-0.2.0.tar.gz
 Source0  : https://files.pythonhosted.org/packages/e8/ac/fb4c578f4a3256561548cd825646680edcadb9440f3f68add95ade1eb791/ifaddr-0.2.0.tar.gz
 Summary  : Cross-platform network interface and IP address enumeration library
